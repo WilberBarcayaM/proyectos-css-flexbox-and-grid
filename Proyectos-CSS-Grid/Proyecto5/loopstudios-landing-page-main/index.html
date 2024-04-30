@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Frontend Mentor | Loopstudios landing page</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Alata&family=Josefin+Sans:wght@300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+
+  <header class="hero">
+
+    <nav class="nav container" id="nav">
+
+      <img src="./images/logo.svg" alt="logo de la pagina" class="nav_logo">
+
+      <ul class="nav_links">
+        <li class="nav_list">
+          <a href="#" class="nav_link">About</a>
+        </li>
+        <li class="nav_list">
+          <a href="#" class="nav_link">Careers</a>
+        </li>
+        <li class="nav_list">
+          <a href="#" class="nav_link">Events</a>
+        </li>
+        <li class="nav_list">
+          <a href="#" class="nav_link">Products</a>
+        </li>
+        <li class="nav_list">
+          <a href="#" class="nav_link">Support</a>
+        </li>
+      </ul>
+
+      <a href="#" class="nav_close">
+        <img src="./images/icon-close.svg" alt="incono de cerrar" class="nav_img">
+      </a>
+
+      <a href="#nav" class="nav_hamburguer">
+        <img src="./images/icon-hamburger.svg" alt="incono de opciones" class="nav_img">
+      </a>
+
+    </nav>
+
+    <div class="hero_text container">
+      <h1 class="hero_title">Immersive experiences that deliver</h1>
+    </div>
+
+  </header>
+
+  <main class="main">
+
+    <section class="leader container">
+
+      <picture class="leader_picture">
+
+        <source srcset="./images/mobile/image-interactive.jpg" class="leader_img" media="(min-width:768px)">
+
+        <img src="./images/mobile/image-interactive.jpg" alt="imagen interactiva" class="leader_img">
+      </picture>
+
+      <div class="leader_texts">
+
+        <h2 class="subtitle">The leader in interactive VR</h2>
+        <p class="leader_paragraph">Founded in 2011, Loopstudios has been producing world-class virtual reality projects for some of the best companies around the globe. Our award-winning creations have transformed businesses through digital experiences that bind to their brand.</p>
+
+      </div>
+
+    </section>
+
+    <secction class="gallery container">
+
+      <h2 class="subtitle subtitle-gallery">Our creations</h2>
+
+      <a href="#" class="gallery_cta">See all</a>
+
+      <div class="gallery_container">
+
+        <picture class="gallery_picture" data-message="Deep earth">
+
+          <source class="gallery_img" srcset="./images/desktop/image-deep-earth.jpg" media="(min-width: 768px)">
+
+          <img src="./images/mobile/image-deep-earth.jpg" alt="La tierra" class="gallery_img">
+
+        </picture>
+
+        <picture class="gallery_picture" data-message="Night arcade">
+
+          <source class="gallery_img" srcset="./images/desktop/image-night-arcade.jpg" media="(min-width: 768px)">
+
+          <img src="./images/mobile/image-night-arcade.jpg" alt="puntos" class="gallery_img">
+
+        </picture>
+
+        <picture class="gallery_picture" data-message="Soccer team VR">
+
+          <source class="gallery_img" srcset="./images/desktop/image-soccer-team.jpg" media="(min-width: 768px)">
+
+          <img src="./images/mobile/image-soccer-team.jpg" alt="futbol" class="gallery_img">
+
+        </picture>
+
+        <picture class="gallery_picture" data-message="The grid">
+
+          <source class="gallery_img" srcset="./images/desktop/image-grid.jpg" media="(min-width: 768px)">
+
+          <img src="./images/mobile/image-grid.jpg" alt="auto" class="gallery_img">
+
+        </picture>
+
+        <picture class="gallery_picture" data-message="From up above VR">
+
+          <source class="gallery_img" srcset="./images/desktop/image-from-above.jpg" media="(min-width: 768px)">
+
+          <img src="./images/mobile/image-from-above.jpg" alt="carretera" class="gallery_img">
+
+        </picture>
+
+        <picture class="gallery_picture" data-message="Pocket borealis">
+
+          <source class="gallery_img" srcset="./images/desktop/image-pocket-borealis.jpg" media="(min-width: 768px)">
+
+          <img src="./images/mobile/image-pocket-borealis.jpg" alt="lavoreal" class="gallery_img">
+
+        </picture>
+
+        <picture class="gallery_picture" data-message="The curiosity">
+
+          <source class="gallery_img" srcset="./images/desktop/image-curiosity.jpg" media="(min-width: 768px)">
+
+          <img src="./images/mobile/image-curiosity.jpg" alt="robot" class="gallery_img">
+
+        </picture>
+
+        <picture class="gallery_picture" data-message="Make it fisheye">
+
+          <source class="gallery_img" srcset="./images/desktop/image-fisheye.jpg" media="(min-width: 768px)">
+
+          <img src="./images/mobile/image-fisheye.jpg" alt="El cielo" class="gallery_img">
+
+        </picture>
+
+      </div>
+
+    </secction>
+
+  </main>
+
+  <footer class="footer">
+    <section class="footer_container container">
+
+      <img src="./images/logo.svg" class="footer_logo" alt="Logo de la Paogina">
+
+      <ul class="footer_links">
+        <li class="footer_list">
+          <a href="#" class="footer_link">About</a>
+        </li>
+        <li class="footer_list">
+          <a href="#" class="footer_link">Careers</a>
+        </li>
+        <li class="footer_list">
+          <a href="#" class="footer_link">Events</a>
+        </li>
+        <li class="footer_list">
+          <a href="#" class="footer_link">Products</a>
+        </li>
+        <li class="footer_list">
+          <a href="#" class="footer_link">Support</a>
+        </li>
+      </ul>
+
+      <nav class="footer_nav">
+
+        <a href="#" class="footer_social">
+          <img src="./images/icon-facebook.svg" alt="icono de icon-facebook" class="footer_icon">
+        </a>
+
+        <a href="#" class="footer_social">
+          <img src="./images/icon-twitter.svg" alt="icono de icon-facebook" class="footer_icon">
+        </a>
+
+        <a href="#" class="footer_social">
+          <img src="./images/icon-pinterest.svg" alt="icono de icon-facebook" class="footer_icon">
+        </a>
+
+        <a href="#" class="footer_social">
+          <img src="./images/icon-instagram.svg" alt="icono de icon-facebook" class="footer_icon">
+        </a>
+
+      </nav>
+
+      <p class="footer_copy">© 2021 Loopstudios. All rights reserved.</p>
+
+    </section>
+  </footer>
+
+</body>
+</html>
